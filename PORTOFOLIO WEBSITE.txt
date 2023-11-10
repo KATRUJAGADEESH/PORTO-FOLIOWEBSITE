@@ -1,0 +1,66 @@
+HTML CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="accomplishments.html">Accomplishments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Freelancer</p>
+    </section>
+</body>
+</html>
+
+CSS CODE:
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-color: yellow;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin:  20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#home {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
